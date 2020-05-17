@@ -24,11 +24,17 @@ h1{
   font-weight: bold;
 }
 
+img{
+  cursor: pointer;
+  margin-left: 10px;
+ 
+}
 
 button{
   display: flex;
   margin-top: 20px;
-  margin-left: 10px;
+  margin-left: 150px;
+  width: 50%;
 }
 
 .table-section{

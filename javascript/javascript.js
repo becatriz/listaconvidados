@@ -27,6 +27,8 @@ function atualizar() {
       <td>${adicionarConvidado[i].nome}</td>
       <td>${adicionarConvidado[i].idade}</td>
       <td>${adicionarConvidado[i].email}</td>
+      <td><img src="./img/excluir.svg" alt="Botão Excluir" title="Excluir Registro" height="25" width="25">
+      <img src="./img/edit.svg" alt="Botão Editar" title="Editar Registro" height="25" width="25"></td></td>
     </tr>
   </tbody>
     `

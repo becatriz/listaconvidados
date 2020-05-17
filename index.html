@@ -18,20 +18,18 @@
     <form>
       <div class="form-group form-class">
         <label for="convidado">Nome</label>
-        <input type="text" class="form-control" id="convidado" required>
+        <input type="text" class="form-control" required id="convidado">
       </div>
       <div class="form-group form-class">
         <label for="idade">Idade</label>
-        <input type="number" class="form-control" id="idade" required>
+        <input type="number" class="form-control" required id="idade" >
       </div>
       <div class="form-group form-class">
         <label for="email">Email</label>
-        <input type="email" class="form-control" id="email" required>
+        <input type="email" class="form-control" required id="email" >
       </div>
       <div class="row justify-content-center">
         <button type="button" onclick="adicionar()" class="btn btn-primary">Adicionar</button>
-        <button type="button" onclick="remover()" class="btn btn-primary">Remover</button>
-        <button type="button" onclick="altarar()" class="btn btn-primary">Alterar</button>
       </div>
     </form>
   </div>
@@ -45,6 +43,7 @@
             <th scope="col">Nome</th>
             <th scope="col">Idade</th>
             <th scope="col">Email</th>
+            <th scope="col">Ações</th>
           </tr>
         </thead>
         <tbody id="table">
