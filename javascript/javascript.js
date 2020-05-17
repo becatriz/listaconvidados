@@ -16,28 +16,20 @@ function adicionar() {
 }
 
 function atualizar() {
-
-  let lista = document.getElementById("lista")
-  lista.innerHTML = ""
-  lista.innerHTML = `<h1>Lista atualizada</h1>`
- 
-
+   let table = document.getElementById("table")
+   table.innerHTML = ""
+   document.getElementById("section").style.visibility = "visible"
   for (var i = 0; i < adicionarConvidado.length; i++) {
-    lista.innerHTML += `
-  <table border=1 cellspacing=0 cellpadding=2 bordercolor="666633">
-    <th colspan="3">Convidado ${i+1}</th>
-  <tr>
-    <th>Nome</th>
-    <th>Idade</th>
-    <th>Email</th>
-  </tr>
+    table.innerHTML += `
+   <tbody>
     <tr>
+      <th scope="row">${i+1}</th>
       <td>${adicionarConvidado[i].nome}</td>
       <td>${adicionarConvidado[i].idade}</td>
       <td>${adicionarConvidado[i].email}</td>
     </tr>
-    </table></br>`
-  
+  </tbody>
+    `
   }
 
 }

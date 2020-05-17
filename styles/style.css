@@ -1,7 +1,53 @@
-th{
-  padding-left: 15px;
+body{
+  font-family: sans-serif;
+  background-image: url("../img/carnaval.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.8 ;
+  width: fit-content;
+  
 }
-td{
-  padding-left: 15px;
+
+h1{
+  margin-left: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-bottom: 1px solid;
+  
 }
+
+.form-class {
+  width: 100%;
+  margin-left: 20%;
+  font-weight: 100;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+button{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.table-section{
+  position:absolute;
+	top:25%;
+  left:55%;
+  width: 40%;
+  visibility: hidden;
+  
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+
+
 
