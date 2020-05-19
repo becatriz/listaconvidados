@@ -51,5 +51,4 @@ function excluir() {
     document.getElementById("table").deleteRow(i)
     
   }
-  ;
 }

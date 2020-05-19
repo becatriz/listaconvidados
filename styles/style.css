@@ -1,40 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-
-body{
+body {
   font-family: 'Roboto', sans-serif;
-  background-image: url("../img/carnaval.jpg");
+  background-image: url('../img/carnaval.jpg');
   background-repeat: no-repeat;
-  background-size:100%;
+  background-size: 100%;
   background-size: cover;
-  opacity:0.8 ;
+  opacity: 0.8;
   width: fit-content;
   height: 100vh;
-  
 }
 
 @media screen and (max-width: 800px) {
-  body{
+  body {
     font-family: 'Roboto', sans-serif;
-    background-image: url("../img/carnaval.jpg");
+    background-image: url('../img/carnaval.jpg');
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size: 100%;
     background-size: cover;
-    opacity:0.8 ;
+    opacity: 0.8;
     width: fit-content;
     height: 150vh;
-    
   }
 }
 
-h1{
+h1 {
   margin-left: 20px;
   margin-bottom: 5%;
   margin-top: 50px;
-  
-  
 }
-
 
 .form-class {
   margin-left: 5%;
@@ -42,48 +36,40 @@ h1{
   font-weight: bold;
 }
 
-img{
+img {
   cursor: pointer;
   margin-left: 5px;
- 
 }
 
-button{
+button {
   display: flex;
   margin-top: 20px;
   margin-left: 5%;
   width: 50%;
 }
 
-
-.table-section{
-  position:absolute;
-	margin-top: -25%;
+.table-section {
+  position: absolute;
+  margin-top: -25%;
   margin-left: 50%;
   width: 40%;
   visibility: hidden;
-  
 }
 
 @media screen and (max-width: 800px) {
-  .table-section{
-    margin-top:5%;
-    margin-left:0.5%;
+  .table-section {
+    margin-top: 5%;
+    margin-left: 0.5%;
     margin-right: 2%;
     width: 100%;
     visibility: hidden;
-    
   }
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    margin: 0; 
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
 }
-
-
-
-
