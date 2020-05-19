@@ -37,6 +37,10 @@ function atualizar() {
   </tbody>
     `
   }
+   
+  document.getElementById("convidado").value = ""
+  document.getElementById("idade").value = ""
+  document.getElementById("email").value = ""
 
 }
 
