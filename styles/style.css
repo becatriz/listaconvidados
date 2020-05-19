@@ -1,11 +1,28 @@
+
 body{
   font-family: sans-serif;
   background-image: url("../img/carnaval.jpg");
   background-repeat: no-repeat;
+  background-size:100%;
   background-size: cover;
   opacity:0.8 ;
   width: fit-content;
+  height: 100vh;
   
+}
+
+@media screen and (max-width: 800px) {
+  body{
+    font-family: sans-serif;
+    background-image: url("../img/carnaval.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-size: cover;
+    opacity:0.8 ;
+    width: fit-content;
+    height: 150vh;
+    
+  }
 }
 
 h1{
@@ -16,8 +33,10 @@ h1{
   
 }
 
+
 .form-class {
-  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
   margin-left: 20%;
   font-weight: 100;
   margin-top: 10px;
@@ -26,7 +45,7 @@ h1{
 
 img{
   cursor: pointer;
-  margin-left: 10px;
+  margin-left: 5px;
  
 }
 
@@ -37,13 +56,25 @@ button{
   width: 50%;
 }
 
+
 .table-section{
   position:absolute;
-	top:25%;
-  left:55%;
+	margin-top: -25%;
+  margin-left: 50%;
   width: 40%;
   visibility: hidden;
   
+}
+
+@media screen and (max-width: 800px) {
+  .table-section{
+    margin-top:5%;
+    margin-left:0.5%;
+    margin-right: 2%;
+    width: 100%;
+    visibility: hidden;
+    
+  }
 }
 
 input[type=number]::-webkit-inner-spin-button, 
