@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 
 body{
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-image: url("../img/carnaval.jpg");
   background-repeat: no-repeat;
   background-size:100%;
@@ -13,7 +15,7 @@ body{
 
 @media screen and (max-width: 800px) {
   body{
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-image: url("../img/carnaval.jpg");
     background-repeat: no-repeat;
     background-size:100%;
@@ -26,19 +28,16 @@ body{
 }
 
 h1{
-  margin-left: 100px;
-  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-bottom: 5%;
   margin-top: 50px;
-  border-bottom: 1px solid;
+  
   
 }
 
 
 .form-class {
-  max-width: 100%;
-  min-width: 100%;
-  margin-left: 20%;
-  font-weight: 100;
+  margin-left: 5%;
   margin-top: 10px;
   font-weight: bold;
 }
@@ -52,7 +51,7 @@ img{
 button{
   display: flex;
   margin-top: 20px;
-  margin-left: 150px;
+  margin-left: 5%;
   width: 50%;
 }
 
