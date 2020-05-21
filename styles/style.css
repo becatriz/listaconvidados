@@ -48,11 +48,15 @@ button {
   width: 50%;
 }
 
+#editar{
+  visibility: hidden;
+}
+
 .table-section {
   position: absolute;
   margin-top: -25%;
   margin-left: 50%;
-  width: 40%;
+  width: 45%;
   visibility: hidden;
 }
 
